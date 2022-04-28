@@ -8,8 +8,16 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 100%;
   margin: auto;
+}
+
+.intro {
+  width: 430px;
+  margin: auto;
+}
+
+.barras {
 }
 
 h1 {
@@ -43,6 +51,7 @@ button {
   border: none;
   cursor: pointer;
 }
+
 img {
   width: 250px;
 }
@@ -54,3 +63,33 @@ img {
 .texto {
   font-size: 30px;
 }
+
+.motivos {
+  text-align: justify;
+}
+
+/*...................Barrinhas verdes que se repetem..................*/
+.barrinhas {
+  margin-left: 10vw;
+}
+
+.barra1,
+.barra2,
+.barra3 {
+  height: 0.1em;
+  background-color: rgb(19, 142, 101);
+  display: inline-block;
+  border-radius: 2vw;
+}
+
+.barra1 {
+  width: 2.4em;
+}
+.barra2 {
+  width: 0.8em;
+}
+.barra3 {
+  width: 0.4em;
+}
+
+/*.....................................................................*/
