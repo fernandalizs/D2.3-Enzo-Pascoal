@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  height: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  font-weight: 400;
   color: #293651;
 }
 
@@ -13,27 +11,34 @@ body {
 }
 
 .intro {
-  width: 430px;
+  width: 450px;
+  margin: auto;
+}
+
+.container2 {
+  width: 450px;
   margin: auto;
 }
 
 .barras {
+  accent-color: #00a78e;
+  background-color: #ffffff;
 }
 
-h1 {
+.Enzo {
   font-size: 30px;
 }
 
-h2 {
+.Olá {
   color: #00a78e;
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 3px;
 }
 
-h3 {
+.Descrição {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 3px;
 }
 
@@ -62,22 +67,48 @@ img {
 
 .texto {
   font-size: 30px;
+  color: #293651;
+  font-weight: 500;
+  margin-bottom: 0%;
 }
 
 .motivos {
   text-align: justify;
 }
 
-/*...................Barrinhas verdes que se repetem..................*/
+.habilidades {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0;
+  color: #293651;
+  text-align: left;
+  border-left: 10px;
+}
+
+progress {
+  width: 20em;
+}
+
+.barras {
+  text-align: center;
+}
+
+.projeto {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 200;
+  margin-bottom: 0%;
+}
+
 .barrinhas {
-  margin-left: 10vw;
+  margin-left: 1px;
 }
 
 .barra1,
 .barra2,
 .barra3 {
   height: 0.1em;
-  background-color: rgb(19, 142, 101);
+  background-color: #00a78e;
   display: inline-block;
   border-radius: 2vw;
 }
@@ -86,10 +117,12 @@ img {
   width: 2.4em;
 }
 .barra2 {
-  width: 0.8em;
+  width: 0.7em;
 }
 .barra3 {
   width: 0.4em;
 }
 
-/*.....................................................................*/
+.barrinhas2 {
+  text-align: center;
+}
