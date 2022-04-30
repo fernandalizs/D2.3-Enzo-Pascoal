@@ -93,11 +93,18 @@ progress {
   text-align: center;
 }
 
-.projeto {
+.cinza {
+  background-color: #f9f9f9;
+  height: 800px;
+  width: 100%;
+}
+
+.cinza h3 {
   text-align: center;
   font-size: 28px;
   font-weight: 200;
   margin-bottom: 0%;
+  padding-top: 20px;
 }
 
 .barrinhas {
@@ -125,4 +132,26 @@ progress {
 
 .barrinhas2 {
   text-align: center;
+}
+
+.caixa {
+  width: 1000px;
+  height: 600px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.quadrado {
+  display: inline-block;
+  width: 320px;
+  height: 300px;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 3px 8px 8px #e8e8e8;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
 }
