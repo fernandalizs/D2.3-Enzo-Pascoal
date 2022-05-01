@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-.intro {
+.introdução {
   width: 450px;
   margin: auto;
 }
@@ -27,17 +27,18 @@ body {
 
 .Enzo {
   font-size: 30px;
+  font-weight: 900;
 }
 
 .Olá {
   color: #00a78e;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 3px;
 }
 
 .Descrição {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 20px;
   letter-spacing: 3px;
 }
@@ -66,9 +67,9 @@ img {
 }
 
 .texto {
-  font-size: 30px;
+  font-size: 34px;
   color: #293651;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 0%;
 }
 
@@ -87,6 +88,17 @@ img {
 
 progress {
   width: 20em;
+  border: 0;
+  height: 15px;
+}
+
+progress::-webkit-progress-value {
+  background: #00a78e;
+  border-radius: 10px;
+}
+progress::-webkit-progress-bar {
+  background: #e2e4e3;
+  border-radius: 10px;
 }
 
 .barras {
@@ -95,14 +107,14 @@ progress {
 
 .cinza {
   background-color: #f9f9f9;
-  height: 800px;
+  height: 830px;
   width: 100%;
 }
 
 .cinza h3 {
   text-align: center;
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 600;
   margin-bottom: 0%;
   padding-top: 20px;
 }
@@ -154,4 +166,48 @@ progress {
   padding: 10px;
   box-sizing: border-box;
   text-align: justify;
+}
+
+.box {
+  margin-left: 18%;
+  margin-right: 18%;
+  align-items: center;
+}
+
+.Contato {
+  width: 600px;
+  height: 180px;
+  border-radius: 12px;
+  background-color: #00a78e;
+  color: #ffffff;
+  padding: 5% 10%;
+  margin: 0 0;
+}
+
+.Contato p {
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  background-color: #f9f9f9;
+  height: 350px;
+  width: 100%;
+}
+
+footer h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+footer p {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 15px;
+  color: #293651;
+}
+
+footer h6 {
+  color: #949494;
+  font-weight: lighter;
 }
