@@ -147,7 +147,7 @@ progress::-webkit-progress-bar {
 
 .caixa {
   width: 1000px;
-  height: 600px;
+  height: 800px;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -160,6 +160,7 @@ progress::-webkit-progress-bar {
   width: 320px;
   height: 300px;
   margin: 10px;
+  margin-left: 5px;
   background-color: #ffffff;
   box-shadow: 3px 8px 8px #e8e8e8;
   padding: 10px;
@@ -181,7 +182,8 @@ progress::-webkit-progress-bar {
   background-color: #00a78e;
   color: #ffffff;
   padding: 5% 10%;
-  margin: 0 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Contato h3 {
@@ -200,7 +202,7 @@ footer {
   background-color: #f9f9f9;
   height: 350px;
   width: 100%;
-  padding: 10% 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 footer h2 {
@@ -220,7 +222,8 @@ footer h6 {
   font-weight: lighter;
 }
 
-.icons {
+.icons img {
   display: inline;
-  width: 5px;
+  width: 45px;
+  margin: 1%;
 }
