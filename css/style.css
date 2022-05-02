@@ -58,6 +58,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #d6d3d3;
+  color: #293651;
+}
+
 .imagem {
   text-align: center;
 }
@@ -169,6 +174,31 @@ progress::-webkit-progress-bar {
   border-radius: 4px;
 }
 
+.quadrado p {
+  padding: 0 10% 10% 10%;
+}
+
+.quadrado h6 {
+  padding-left: 10%;
+}
+
+.ícones i {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+.ícones {
+  padding-top: 7%;
+  padding-left: 7%;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-color: #00a78e;
+  border-radius: 15px 15px 0px 15px;
+  width: 48px;
+  height: 48px;
+}
+
 .box {
   margin-left: 18%;
   margin-right: 18%;
@@ -176,6 +206,7 @@ progress::-webkit-progress-bar {
 }
 
 .Contato {
+  position: relative;
   width: 600px;
   height: 180px;
   border-radius: 12px;
@@ -226,4 +257,26 @@ footer h6 {
   display: inline;
   width: 45px;
   margin: 1%;
+}
+
+.custom-shape-divider-top-1651501445 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  border-radius: 12px;
+}
+
+.custom-shape-divider-top-1651501445 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 95px;
+}
+
+.custom-shape-divider-top-1651501445 .shape-fill {
+  fill: #009b84;
 }
