@@ -58,14 +58,13 @@ button {
   cursor: pointer;
 }
 
-img {
-  width: 250px;
-}
-
 .imagem {
   text-align: center;
 }
 
+.imagem img {
+  width: 250px;
+}
 .texto {
   font-size: 34px;
   color: #293651;
@@ -119,30 +118,30 @@ progress::-webkit-progress-bar {
   padding-top: 20px;
 }
 
-.barrinhas {
+.linhas {
   margin-left: 1px;
 }
 
-.barra1,
-.barra2,
-.barra3 {
+.linha1,
+.linha2,
+.linha3 {
   height: 0.1em;
   background-color: #00a78e;
   display: inline-block;
   border-radius: 2vw;
 }
 
-.barra1 {
+.linha1 {
   width: 2.4em;
 }
-.barra2 {
+.linha2 {
   width: 0.7em;
 }
-.barra3 {
+.linha3 {
   width: 0.4em;
 }
 
-.barrinhas2 {
+.linhas2 {
   text-align: center;
 }
 
@@ -166,6 +165,7 @@ progress::-webkit-progress-bar {
   padding: 10px;
   box-sizing: border-box;
   text-align: justify;
+  border-radius: 4px;
 }
 
 .box {
@@ -184,6 +184,13 @@ progress::-webkit-progress-bar {
   margin: 0 0;
 }
 
+.Contato h3 {
+  margin: 5% 0 0 0;
+}
+
+.branco {
+  background-color: #ffffff;
+}
 .Contato p {
   color: #ffffff;
 }
@@ -193,6 +200,7 @@ footer {
   background-color: #f9f9f9;
   height: 350px;
   width: 100%;
+  padding: 10% 0 0 0;
 }
 
 footer h2 {
@@ -210,4 +218,9 @@ footer p {
 footer h6 {
   color: #949494;
   font-weight: lighter;
+}
+
+.icons {
+  display: inline;
+  width: 5px;
 }
